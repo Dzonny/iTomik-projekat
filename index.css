@@ -10,6 +10,9 @@ body{
 label {
 	margin-right: 20px;
 }
+.tekst {
+	font-weight: bold;
+}
 .answers {
     margin-bottom: 20px;
 }
@@ -39,4 +42,15 @@ label {
 }
 .pitanje:hover {
 	box-shadow: 12px 0px 12px rgba(18, 11, 215, 0.2);
+}
+
+ /* Box za listu ostalih stavki, brisati posle... */
+.ostalo {
+ padding: 20px;
+background-color: #d5372bde;
+color: white;
+margin-bottom: 15px;
+border-radius: 20px;
+width: 550px;
+margin: 0 auto;
 }
