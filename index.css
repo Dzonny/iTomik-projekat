@@ -1,0 +1,42 @@
+body{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+	text-align: center;
+}
+.question{
+	font-weight: 600;
+}
+label {
+	margin-right: 20px;
+}
+.answers {
+    margin-bottom: 20px;
+}
+#submit, #reloadfazon {
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #297;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #3a8;
+}
+.pitanje {
+	padding: 20px;
+	transition: box-shadow .3s;
+	width: 50%;
+	margin: 0 auto;
+	border-radius:10px;
+	border: 1px solid #ccc;
+	background: #fff;
+	margin-top: 20px;
+}
+.pitanje:hover {
+	box-shadow: 12px 0px 12px rgba(18, 11, 215, 0.2);
+}
