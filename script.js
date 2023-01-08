@@ -96,6 +96,10 @@ var mojaPitanja = [
 		indeks_korektnog_odgovora: 'c'
 	}
 ];
+// Random za listu gore napravljenih pitanja...
+const shuffled = mojaPitanja.sort(() => 0.5 - Math.random());
+let randomPitanja = shuffled.slice(0, 5); // izvlačimo 5 random pitanja
+
 
 function generisiKviz(teksts, quizContainer, rezContainer, posaljiDugme){
 
@@ -180,4 +184,3 @@ function generisiKviz(teksts, quizContainer, rezContainer, posaljiDugme){
 var quizContainer = document.getElementById('quiz');
 var rezContainer = document.getElementById('results');
 var posaljiDugme = document.getElementById('submit');
-
